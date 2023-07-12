@@ -30,10 +30,10 @@ class _splashscreenState extends State<splashscreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 
-                // SvgPicture.asset(
-                //   "asset/heylogo.png",
-                // ),
-                Image(image: AssetImage("asset/heylogo.png"))
+                SvgPicture.asset(
+                  "asset/LOGO.svg",
+                ),
+                // Image(image: AssetImage("asset/heylogo.png"))
               ],
             )
           ],
